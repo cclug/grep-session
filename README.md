@@ -34,6 +34,10 @@ Set-up:
     git clone https://github.com/cclug/grep-session
     git clone https://github.com/spf13/cobra
 
+Challenge results based on cobra commit hash
+
+    0dacccfbaabc71b872087c1719c5380d3e185173
+
 Basics
 ------
 
@@ -55,6 +59,7 @@ Basics
 	    cobra.go
 	    cobra/cmd/init.go
 	    cobra/cmd/root.go
+        cobra/cmd/testdata/root.go.golden
 	    ```
 
 Middle
@@ -73,7 +78,7 @@ Middle
 3. cobra
 
     q: List all lines containing function definitions that include `string` in the parameter list.
-    r: 199 lines.
+    r: 205 lines.
 
 Advanced
 --------
